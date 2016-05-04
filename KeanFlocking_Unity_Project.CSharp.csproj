@@ -51,17 +51,11 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
@@ -74,15 +68,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Other stuff not used\Scene2 Scripts\BoidController.cs" />
+    <Compile Include="Assets\Other stuff not used\Scene2 Scripts\BoidFlocking.cs" />
+    <Compile Include="Assets\Other stuff not used\Steeringbehaviours Scripts\SteeringBehavior3.cs" />
+    <Compile Include="Assets\Other stuff not used\Steeringbehaviours Scripts\SteeringBehaviours.cs" />
+    <Compile Include="Assets\Other stuff not used\Steeringbehaviours Scripts\SteeringBehaviours2.cs" />
+    <Compile Include="Assets\Other stuff not used\Steeringbehaviours Scripts\SteeringBehaviours4.cs" />
     <Compile Include="Assets\Scripts\Flocking World Scene Scripts\Agent.cs" />
     <Compile Include="Assets\Scripts\Flocking World Scene Scripts\AgentConfig.cs" />
+    <Compile Include="Assets\Scripts\Flocking World Scene Scripts\FSM.cs" />
     <Compile Include="Assets\Scripts\Flocking World Scene Scripts\Predator.cs" />
     <Compile Include="Assets\Scripts\Flocking World Scene Scripts\Seeker.cs" />
     <Compile Include="Assets\Scripts\Flocking World Scene Scripts\World.cs" />
-    <Compile Include="Assets\Scripts\SteeringBehavior3.cs" />
-    <Compile Include="Assets\Scripts\SteeringBehaviours.cs" />
-    <Compile Include="Assets\Scripts\SteeringBehaviours2.cs" />
-    <Compile Include="Assets\Scripts\SteeringBehaviours4.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scenes\Kean_README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
